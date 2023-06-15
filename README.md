@@ -71,6 +71,7 @@ Ainda não sei rodar no linux mas em um windows novo deve ser igual.
 
 Abaixo também temos as instruções que o professor passou em aula
 
-https://www.youtube.com/watch?v=s48kQK-LFT4
+[![Parte 1](https://i.ytimg.com/an_webp/s48kQK-LFT4/mqdefault_6s.webp?du=3000&sqp=COLYqaQG&rs=AOn4CLBVTo2Q-XQhTdpTvcM4-KR297LanQ "Trabalho - Montador Neander usando FLEX (parte 1/2)")](https://www.youtube.com/watch?v=s48kQK-LFT4 "Instrução parte 1")
 
-https://www.youtube.com/watch?v=GwtlzvTS2OU
+
+[![Parte 2](https://i.ytimg.com/an_webp/GwtlzvTS2OU/mqdefault_6s.webp?du=3000&sqp=CNTqqaQG&rs=AOn4CLBHRenq924R25oQdnq9l9zKzWKyKg "Trabalho - Montador Neander usando FLEX (parte 2/2)")](https://www.youtube.com/watch?v=GwtlzvTS2OU "Instrução parte 1")
