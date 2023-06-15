@@ -42,14 +42,6 @@ HLT addToBuffer(0xF0);
 int main(int argc, char *argv[]){
 
 	FILE *fin;
-	FILE* arquivo;
-	arquivo = fopen("teste.mem", "w+b"); // Cria o arquivo se não existir
-	if (arquivo != NULL) {
-			printf("Arquivo criado com sucesso!\n");
-	} else {
-			printf("Não foi possível criar o arquivo.\n");
-			return 1;
-	}
 	if (argc == 2) {
 		if (fin = fopen(argv[1],"r"))
 			yyin = fin;
@@ -59,6 +51,21 @@ int main(int argc, char *argv[]){
 		yyin = stdin;
 
 	yylex ();
+	fclose(fin);
+	
+	size_t len = strlen(argv[1]);
+	if (len >= 4) {
+			argv[1][len-4] = 0;
+	}
+
+	FILE* arquivo = fopen(strcat(argv[1], ".mem"), "w+b"); // Cria o arquivo se não existir
+	if (arquivo != NULL) {
+			printf("Arquivo criado com sucesso!\n");
+	} else {
+			printf("Não foi possível criar o arquivo.\n");
+			return 1;
+	}
 	escreverNoArquivo(arquivo);
+	fclose(arquivo);
 	return (0);
 }
