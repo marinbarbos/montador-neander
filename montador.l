@@ -2,6 +2,8 @@
 unsigned char buffer[516] = {0x03, 0x4E, 0x44, 0x52};
 int currSize = 4;
 
+// necessario para executar sem todas as bibliotecas(caso de rodar em linux)
+// como apenas lemos um arquivo não precisamos do yywrap correto
 int yywrap(){return(1);}
 
 void escreverNoArquivo(FILE* fp) {
